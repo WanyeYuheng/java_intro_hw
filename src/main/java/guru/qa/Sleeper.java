@@ -50,9 +50,9 @@ public class Sleeper {
 
     public void sleepRecommendation() {
         if (isRested && 7 <= sleepTime) {
-            System.out.println("Кажется, это ваша норма сна. Так держать!");
+            System.out.println("Кажется, это норма сна. Так держать!");
         } else if (isRested && sleepTime <= 7) {
-            System.out.println("Неплохо, но усталость имеет свойство накапливаться - пересмотрите свой режим.");
+            System.out.println("Неплохо, но усталость имеет свойство накапливаться - стоит пересмотреть режим.");
         } else {
             System.out.println("Пора кардинально пересмотреть режим - калькулятор сна может помочь.");
         }
